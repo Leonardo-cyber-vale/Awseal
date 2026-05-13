@@ -1,0 +1,45 @@
+   ▲ Next.js 15.5.18
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 1598ms (1425 modules)
+ GET / 200 in 4875ms
+ GET / 200 in 102ms
+ GET / 200 in 87ms
+ GET / 200 in 124ms
+ GET / 200 in 114ms
+ GET / 200 in 102ms
+ ✓ Compiled in 3s (1439 modules)
+ GET / 200 in 257ms
+ GET / 200 in 255ms
+ GET / 500 in 1107ms
+ GET / 500 in 1118ms
+ GET / 500 in 86ms
+ GET / 500 in 77ms
+ GET / 500 in 77ms
+ ✓ Compiled in 934ms (1439 modules)
+ GET / 200 in 938ms
+ GET / 200 in 956ms
+ ✓ Compiled in 608ms (1439 modules)
+ GET / 200 in 219ms
+ GET / 200 in 253ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 1378ms (1461 modules)
+ POST /api/analyze 200 in 1630ms
+ GET / 200 in 1107ms
+ GET / 200 in 114ms
+ GET / 200 in 535ms
+ ✓ Compiled in 9.4s (1445 modules)
+ GET / 200 in 216ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.2s (1773 modules)
+ GET / 500 in 12489ms
+ GET / 500 in 674ms
+ GET / 500 in 10411ms
+ GET / 500 in 605ms
+ GET / 500 in 1119ms
+ GET / 500 in 282ms
+[?25h

@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 214 100% 99%;
+    --foreground: 224 38% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 38% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 38% 12%;
+    --primary: 217 89% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 216 60% 97%;
+    --secondary-foreground: 224 38% 16%;
+    --muted: 216 60% 97%;
+    --muted-foreground: 220 12% 46%;
+    --accent: 215 100% 96%;
+    --accent-foreground: 217 75% 44%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 37% 90%;
+    --input: 214 37% 90%;
+    --ring: 217 89% 53%;
+  }
+
+  .dark {
+    --background: 224 36% 8%;
+    --foreground: 210 40% 98%;
+    --card: 224 32% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 224 32% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 89% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 224 24% 14%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 224 24% 14%;
+    --muted-foreground: 215 16% 65%;
+    --accent: 224 24% 16%;
+    --accent-foreground: 213 100% 85%;
+    --destructive: 0 70% 54%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 224 20% 18%;
+    --input: 224 20% 18%;
+    --ring: 217 89% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at top, rgba(28, 100, 242, 0.08), transparent 36%),
+      radial-gradient(circle at 100% 20%, rgba(28, 100, 242, 0.06), transparent 18%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.97), rgba(245, 249, 255, 0.96));
+  }
+
+  .dark body {
+    background-image:
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.18), transparent 32%),
+      radial-gradient(circle at 100% 0%, rgba(37, 99, 235, 0.12), transparent 20%),
+      linear-gradient(180deg, rgba(11, 18, 32, 0.98), rgba(8, 12, 24, 0.98));
+  }
+
+  ::selection {
+    background: rgba(28, 100, 242, 0.18);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+.editor-highlight {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.editor-highlight .token-key {
+  color: rgb(225 29 72);
+}
+
+.editor-highlight .token-string {
+  color: rgb(14 116 144);
+}
+
+.editor-highlight .token-number {
+  color: rgb(22 163 74);
+}
+
+.editor-highlight .token-boolean,
+.editor-highlight .token-null {
+  color: rgb(79 70 229);
+}
+
+.dark .editor-highlight .token-key {
+  color: rgb(251 113 133);
+}
+
+.dark .editor-highlight .token-string {
+  color: rgb(103 232 249);
+}
+
+.dark .editor-highlight .token-number {
+  color: rgb(74 222 128);
+}
+
+.dark .editor-highlight .token-boolean,
+.dark .editor-highlight .token-null {
+  color: rgb(165 180 252);
+}

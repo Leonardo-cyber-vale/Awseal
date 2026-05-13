@@ -1,0 +1,21 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="36" fill="#F8FBFF"/>
+  <rect x="160" y="106" width="276" height="624" rx="32" fill="white" stroke="#E5EDFB"/>
+  <rect x="484" y="106" width="956" height="624" rx="32" fill="white" stroke="#E5EDFB"/>
+  <rect x="520" y="146" width="210" height="28" rx="14" fill="#0F172A"/>
+  <rect x="1220" y="138" width="180" height="42" rx="14" fill="#EEF4FF"/>
+  <rect x="520" y="214" width="612" height="196" rx="28" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="1160" y="214" width="240" height="196" rx="28" fill="#FFF1F2" stroke="#FFE4E6"/>
+  <rect x="548" y="252" width="180" height="18" rx="9" fill="#DBEAFE"/>
+  <rect x="548" y="292" width="520" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="548" y="324" width="470" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="548" y="356" width="410" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="520" y="440" width="436" height="236" rx="28" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="964" y="440" width="436" height="236" rx="28" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="196" y="164" width="204" height="52" rx="18" fill="#EEF4FF"/>
+  <rect x="196" y="236" width="204" height="52" rx="18" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="196" y="308" width="204" height="52" rx="18" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="196" y="380" width="204" height="52" rx="18" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <rect x="196" y="452" width="204" height="52" rx="18" fill="#FFFFFF" stroke="#EAF0FB"/>
+  <text x="800" y="812" text-anchor="middle" fill="#1C64F2" font-family="Arial, sans-serif" font-size="28" font-weight="700">Awseal analysis screenshot placeholder</text>
+</svg>
